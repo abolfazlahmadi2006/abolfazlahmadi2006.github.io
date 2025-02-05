@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting ...</title>
+  <script>
+    let path = window.location.pathname;
+    windows.location.replace("http://37.32.5.114" + path);
+  </script>
+</head>
+<body>
+  <p>در حال انتقال... اگر منتل نشدید <a id="redirect-link" href="#">اینجا کلید کنید</a>.</p>
+  <script>
+    document.getElementById("redirect-link").href = "http://37.32.5.114" + window.location.pathname;
+  </script>
+</body>
+</html>
